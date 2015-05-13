@@ -12,6 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  NSString* appID = @"5552d91a4b79673719000023";
+  VungleSDK* sdk = [VungleSDK sharedSDK];
+  // start vungle publisher library
+  [sdk startWithAppId:appID];
   return YES;
 }
 

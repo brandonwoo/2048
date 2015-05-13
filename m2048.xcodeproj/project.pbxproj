@@ -34,6 +34,33 @@
 		24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* M2ScoreView.m */; };
 		24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* M2Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* M2Overlay.m */; };
+		DDB089821B032ACF009942F8 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897B1B032ACF009942F8 /* __vungle.db */; };
+		DDB089831B032ACF009942F8 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897B1B032ACF009942F8 /* __vungle.db */; };
+		DDB089841B032ACF009942F8 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897C1B032ACF009942F8 /* vg_close.png */; };
+		DDB089851B032ACF009942F8 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897C1B032ACF009942F8 /* vg_close.png */; };
+		DDB089861B032ACF009942F8 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897D1B032ACF009942F8 /* vg_cta.png */; };
+		DDB089871B032ACF009942F8 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897D1B032ACF009942F8 /* vg_cta.png */; };
+		DDB089881B032ACF009942F8 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897E1B032ACF009942F8 /* vg_mute_off.png */; };
+		DDB089891B032ACF009942F8 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897E1B032ACF009942F8 /* vg_mute_off.png */; };
+		DDB0898A1B032ACF009942F8 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897F1B032ACF009942F8 /* vg_mute_on.png */; };
+		DDB0898B1B032ACF009942F8 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB0897F1B032ACF009942F8 /* vg_mute_on.png */; };
+		DDB0898C1B032ACF009942F8 /* vg_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB089801B032ACF009942F8 /* vg_timer.png */; };
+		DDB0898D1B032ACF009942F8 /* vg_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB089801B032ACF009942F8 /* vg_timer.png */; };
+		DDB0898E1B032ACF009942F8 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089811B032ACF009942F8 /* VungleSDK.framework */; };
+		DDB0898F1B032ACF009942F8 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089811B032ACF009942F8 /* VungleSDK.framework */; };
+		DDB089911B032C15009942F8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089901B032C15009942F8 /* AdSupport.framework */; };
+		DDB089931B032C21009942F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089921B032C21009942F8 /* AudioToolbox.framework */; };
+		DDB089951B032C31009942F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089941B032C31009942F8 /* AVFoundation.framework */; };
+		DDB089971B032C41009942F8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089961B032C41009942F8 /* CFNetwork.framework */; };
+		DDB089991B032C51009942F8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089981B032C51009942F8 /* CoreMedia.framework */; };
+		DDB0899B1B032C64009942F8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB0899A1B032C64009942F8 /* libz.dylib */; };
+		DDB0899D1B032C6D009942F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB0899C1B032C6D009942F8 /* libsqlite3.dylib */; };
+		DDB0899F1B032C74009942F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB0899E1B032C74009942F8 /* MediaPlayer.framework */; };
+		DDB089A11B032C7B009942F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089A01B032C7B009942F8 /* QuartzCore.framework */; };
+		DDB089A31B032C81009942F8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089A21B032C81009942F8 /* StoreKit.framework */; };
+		DDB089A51B032C87009942F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB089A41B032C87009942F8 /* SystemConfiguration.framework */; };
+		DDB089F71B033E66009942F8 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB089F61B033E66009942F8 /* MZTimerLabel.m */; };
+		DDB089F81B033E66009942F8 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB089F61B033E66009942F8 /* MZTimerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +119,26 @@
 		24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
+		DDB0897B1B032ACF009942F8 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		DDB0897C1B032ACF009942F8 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		DDB0897D1B032ACF009942F8 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		DDB0897E1B032ACF009942F8 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		DDB0897F1B032ACF009942F8 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		DDB089801B032ACF009942F8 /* vg_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_timer.png; sourceTree = "<group>"; };
+		DDB089811B032ACF009942F8 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		DDB089901B032C15009942F8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DDB089921B032C21009942F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DDB089941B032C31009942F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDB089961B032C41009942F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DDB089981B032C51009942F8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DDB0899A1B032C64009942F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DDB0899C1B032C6D009942F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DDB0899E1B032C74009942F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DDB089A01B032C7B009942F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DDB089A21B032C81009942F8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DDB089A41B032C87009942F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DDB089F51B033E60009942F8 /* MZTimerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		DDB089F61B033E66009942F8 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +146,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
 				2443DC5A18D662CA00C920C1 /* UIKit.framework in Frameworks */,
-				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
+				DDB089A51B032C87009942F8 /* SystemConfiguration.framework in Frameworks */,
+				DDB089A31B032C81009942F8 /* StoreKit.framework in Frameworks */,
+				DDB089A11B032C7B009942F8 /* QuartzCore.framework in Frameworks */,
+				DDB0899F1B032C74009942F8 /* MediaPlayer.framework in Frameworks */,
+				DDB0899D1B032C6D009942F8 /* libsqlite3.dylib in Frameworks */,
+				DDB0899B1B032C64009942F8 /* libz.dylib in Frameworks */,
 				2443DC5618D662CA00C920C1 /* Foundation.framework in Frameworks */,
+				DDB089991B032C51009942F8 /* CoreMedia.framework in Frameworks */,
+				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
+				DDB089971B032C41009942F8 /* CFNetwork.framework in Frameworks */,
+				DDB089951B032C31009942F8 /* AVFoundation.framework in Frameworks */,
+				DDB089931B032C21009942F8 /* AudioToolbox.framework in Frameworks */,
+				DDB089911B032C15009942F8 /* AdSupport.framework in Frameworks */,
+				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
+				DDB0898E1B032ACF009942F8 /* VungleSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +171,7 @@
 			files = (
 				2443DC7C18D662CA00C920C1 /* XCTest.framework in Frameworks */,
 				2443DC7E18D662CA00C920C1 /* UIKit.framework in Frameworks */,
+				DDB0898F1B032ACF009942F8 /* VungleSDK.framework in Frameworks */,
 				2443DC7D18D662CA00C920C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +186,7 @@
 				2443DC8118D662CA00C920C1 /* m2048Tests */,
 				2443DC5418D662CA00C920C1 /* Frameworks */,
 				2443DC5318D662CA00C920C1 /* Products */,
+				DDB089791B032ACF009942F8 /* VungleSDK.embeddedframework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +202,17 @@
 		2443DC5418D662CA00C920C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDB089A41B032C87009942F8 /* SystemConfiguration.framework */,
+				DDB089A21B032C81009942F8 /* StoreKit.framework */,
+				DDB089A01B032C7B009942F8 /* QuartzCore.framework */,
+				DDB0899E1B032C74009942F8 /* MediaPlayer.framework */,
+				DDB0899C1B032C6D009942F8 /* libsqlite3.dylib */,
+				DDB0899A1B032C64009942F8 /* libz.dylib */,
+				DDB089981B032C51009942F8 /* CoreMedia.framework */,
+				DDB089961B032C41009942F8 /* CFNetwork.framework */,
+				DDB089941B032C31009942F8 /* AVFoundation.framework */,
+				DDB089921B032C21009942F8 /* AudioToolbox.framework */,
+				DDB089901B032C15009942F8 /* AdSupport.framework */,
 				2443DC5518D662CA00C920C1 /* Foundation.framework */,
 				2443DC5718D662CA00C920C1 /* CoreGraphics.framework */,
 				2443DC5918D662CA00C920C1 /* UIKit.framework */,
@@ -164,6 +236,8 @@
 				24C4516518DD64630001FCFD /* View */,
 				2443DC5E18D662CA00C920C1 /* Supporting Files */,
 				2443DC7418D662CA00C920C1 /* Images.xcassets */,
+				DDB089F51B033E60009942F8 /* MZTimerLabel.h */,
+				DDB089F61B033E66009942F8 /* MZTimerLabel.m */,
 			);
 			path = m2048;
 			sourceTree = "<group>";
@@ -266,6 +340,28 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DDB089791B032ACF009942F8 /* VungleSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				DDB0897A1B032ACF009942F8 /* Resources */,
+				DDB089811B032ACF009942F8 /* VungleSDK.framework */,
+			);
+			path = VungleSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		DDB0897A1B032ACF009942F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDB0897B1B032ACF009942F8 /* __vungle.db */,
+				DDB0897C1B032ACF009942F8 /* vg_close.png */,
+				DDB0897D1B032ACF009942F8 /* vg_cta.png */,
+				DDB0897E1B032ACF009942F8 /* vg_mute_off.png */,
+				DDB0897F1B032ACF009942F8 /* vg_mute_on.png */,
+				DDB089801B032ACF009942F8 /* vg_timer.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,8 +442,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB0898C1B032ACF009942F8 /* vg_timer.png in Resources */,
+				DDB089881B032ACF009942F8 /* vg_mute_off.png in Resources */,
 				2443DC6218D662CA00C920C1 /* InfoPlist.strings in Resources */,
 				2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */,
+				DDB089821B032ACF009942F8 /* __vungle.db in Resources */,
+				DDB0898A1B032ACF009942F8 /* vg_mute_on.png in Resources */,
+				DDB089861B032ACF009942F8 /* vg_cta.png in Resources */,
+				DDB089841B032ACF009942F8 /* vg_close.png in Resources */,
 				2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +458,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB089831B032ACF009942F8 /* __vungle.db in Resources */,
+				DDB089871B032ACF009942F8 /* vg_cta.png in Resources */,
+				DDB0898D1B032ACF009942F8 /* vg_timer.png in Resources */,
+				DDB0898B1B032ACF009942F8 /* vg_mute_on.png in Resources */,
+				DDB089851B032ACF009942F8 /* vg_close.png in Resources */,
+				DDB089891B032ACF009942F8 /* vg_mute_off.png in Resources */,
 				2443DC8618D662CA00C920C1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2443DCA618D66CCC00C920C1 /* M2ViewController.m in Sources */,
+				DDB089F71B033E66009942F8 /* MZTimerLabel.m in Sources */,
 				2443DC6418D662CA00C920C1 /* main.m in Sources */,
 				24C4515B18D6DC4A0001FCFD /* M2Cell.m in Sources */,
 				24C4516818DD64A90001FCFD /* M2GridView.m in Sources */,
@@ -390,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2443DC8818D662CA00C920C1 /* m2048Tests.m in Sources */,
+				DDB089F81B033E66009942F8 /* MZTimerLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +617,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
@@ -522,6 +636,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
@@ -539,6 +657,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
@@ -561,6 +680,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";

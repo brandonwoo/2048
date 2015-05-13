@@ -32,6 +32,7 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+  [[VungleSDK sharedSDK] setDelegate:self];
   
   [self updateState];
   
@@ -126,6 +127,17 @@
   [_scene startNewGame];
 }
 
+- (IBAction)viewAd:(id)sender
+{
+  VungleSDK* sdk = [VungleSDK sharedSDK];
+  NSError *error;
+  [sdk playAd:self error:&error];
+  if (error) {
+    NSLog(@"Error encountered playing ad: %@", error);
+    [self enableRestart];
+  }
+}
+
 
 - (IBAction)keepPlaying:(id)sender
 {
@@ -144,6 +156,24 @@
   }
 }
 
+- (void)disableRestart
+{
+  _overlay.restartGame.hidden = YES;
+  _overlay.timerLabel.hidden = NO;
+  _overlay.timer.hidden = NO;
+  _overlay.viewAd.hidden = NO;
+  _restartButton.hidden = YES;
+}
+
+- (void)enableRestart
+{
+  _overlay.restartGame.hidden = NO;
+  _overlay.timerLabel.hidden = YES;
+  _overlay.timer.hidden = YES;
+  _overlay.viewAd.hidden = YES;
+  _restartButton.hidden = NO;
+}
+
 
 - (void)endGame:(BOOL)won
 {
@@ -155,7 +185,19 @@
   if (!won) {
     _overlay.keepPlaying.hidden = YES;
     _overlay.message.text = @"Game Over";
+    
+    [self disableRestart];
+    
+    _overlay.restartGame.titleLabel.textAlignment = NSTextAlignmentCenter;
+    MZTimerLabel *timer = [[MZTimerLabel alloc]
+                           initWithLabel:_overlay.timer andTimerType:MZTimerLabelTypeTimer];
+    
+    [timer setCountDownTime:40];
+    [timer startWithEndingBlock:^(NSTimeInterval countTime) {
+      [self enableRestart];
+    }];
   } else {
+    [self enableRestart];
     _overlay.keepPlaying.hidden = NO;
     _overlay.message.text = @"You Win!";
   }
@@ -192,11 +234,21 @@
   }
 }
 
+- (void)vungleSDKwillCloseAdWithViewInfo:(NSDictionary*)viewInfo willPresentProductSheet:(BOOL)willPresentProductSheet
+{
+  [self enableRestart];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
   [super didReceiveMemoryWarning];
   // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)dealloc
+{
+  [[VungleSDK sharedSDK] setDelegate:nil];
 }
 
 @end

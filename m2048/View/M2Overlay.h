@@ -16,4 +16,10 @@
 
 @property (nonatomic, weak) IBOutlet UIButton *restartGame;
 
+@property (nonatomic, weak) IBOutlet UILabel *timerLabel;
+
+@property (nonatomic, weak) IBOutlet UILabel *timer;
+
+@property (nonatomic, weak) IBOutlet UIButton *viewAd;
+
 @end

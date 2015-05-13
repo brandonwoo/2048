@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import <VungleSDK/VungleSDK.h>
+#import "MZTimerLabel.h"
 
-@interface M2ViewController : UIViewController
+@interface M2ViewController : UIViewController<VungleSDKDelegate>
 
 - (void)updateScore:(NSInteger)score;
 

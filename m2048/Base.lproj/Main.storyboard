@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LVB-YS-i5n">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LVB-YS-i5n">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -102,17 +103,30 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXD-8y-R8y">
-                                        <rect key="frame" x="26" y="90" width="148" height="30"/>
+                                        <rect key="frame" x="0.0" y="144" width="200" height="30"/>
                                         <state key="normal" title="New Game">
                                             <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <state key="disabled" title="View Ad to Play Now!"/>
                                         <connections>
                                             <action selector="restart:" destination="LVB-YS-i5n" eventType="touchUpInside" id="pXz-gI-aqA"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Play again in:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOK-U0-Yzk">
+                                        <rect key="frame" x="0.0" y="84" width="200" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.757516572" green="0.757516572" blue="0.757516572" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYg-24-LWQ">
+                                        <rect key="frame" x="0.0" y="102" width="200" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.757516572" green="0.757516572" blue="0.757516572" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYR-fV-lVv">
-                                        <rect key="frame" x="26" y="128" width="148" height="30"/>
+                                        <rect key="frame" x="26" y="120" width="148" height="30"/>
                                         <state key="normal" title="Keep Playing">
                                             <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,12 +135,27 @@
                                             <action selector="keepPlaying:" destination="LVB-YS-i5n" eventType="touchUpInside" id="8Fp-e5-XbF"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVN-Uh-VhA">
+                                        <rect key="frame" x="0.0" y="144" width="200" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="View Ad To Play Now!">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled" title="View Ad to Play Now!"/>
+                                        <connections>
+                                            <action selector="viewAd:" destination="LVB-YS-i5n" eventType="touchUpInside" id="VAK-Kp-VDP"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="keepPlaying" destination="gYR-fV-lVv" id="2Mz-ck-pAi"/>
                                     <outlet property="message" destination="Pqq-SU-fYe" id="p9M-RG-iYY"/>
                                     <outlet property="restartGame" destination="qXD-8y-R8y" id="K7b-ex-bao"/>
+                                    <outlet property="timer" destination="bYg-24-LWQ" id="y43-Nv-UJS"/>
+                                    <outlet property="timerLabel" destination="mOK-U0-Yzk" id="PeU-5j-eim"/>
+                                    <outlet property="viewAd" destination="HVN-Uh-VhA" id="DXd-Lz-iUh"/>
                                 </connections>
                             </view>
                         </subviews>
